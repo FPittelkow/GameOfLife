@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script src="conway.js"></script>
+    <style>
+        body {
+            background-color: black;
+            width: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+
+        td {
+            width: 16px;
+            height: 18px;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+        }
+
+        td.black {
+            background: white;
+        }
+    </style>
+</head>
+<body onload="init()" onkeypress="step()">
+    <div id="container">life</div>
+</body>
+</html>
